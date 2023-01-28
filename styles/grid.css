@@ -1,0 +1,88 @@
+
+
+body {
+  background: #3399CC;
+  border: 25px solid #2B81AC;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+h3 {
+  color: #F7F7F7;
+  font: 400 20px / 1.2 'Hoefler Text', serif;
+  letter-spacing: 1px;
+}
+
+.list {
+  max-width: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 125px);
+  border: 4px solid #fff;
+  grid-gap: 4px;
+  background: #fff;
+}
+
+.list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: .2s all;
+}
+
+.list__item::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: .2s all;
+}
+
+.list:hover .list__item:not(:hover)::after {
+  background: rgba(0, 0, 0, .5);
+}
+
+.list__item--lisbon {
+  background: #3399CC;
+}
+.list__item--paris {
+  background: #33CCCC;
+}
+.list__item--belgrade {
+  background: #996699;
+}
+
+.list__item--venice {
+  background: #C24747;
+}
+.list__item--telavive {
+  background: #E2674A;
+}
+.list__item--cair {
+  background: #FFCC66;
+}
+.list__item--york {
+  background: #99CC99;
+}
+
+.list__item--delhi {
+  background: #669999;
+}
+.list__item--francisco {
+  background: #CC6699;
+}
+.list__item--tokyo {
+  background: #339966;
+}
+
+.list__item--sydney {
+  background: #666699;
+}

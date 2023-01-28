@@ -1,0 +1,52 @@
+
+.list {
+  grid-template-areas:
+            "lisbon lisbon paris belgrade"
+            "venice telavive cair york"
+            "delhi francisco francisco tokyo"
+            "sydney sydney sydney sydney";
+}
+
+.list__item--lisbon {
+  grid-area: lisbon;
+}
+
+.list__item--paris {
+  grid-area: paris;
+}
+
+.list__item--belgrade {
+  grid-area: belgrade;
+}
+
+.list__item--venice {
+  grid-area: venice;
+}
+
+.list__item--telavive {
+  grid-area: telavive;
+}
+
+.list__item--cair {
+  grid-area: cair;
+}
+
+.list__item--york {
+  grid-area: york;
+}
+
+.list__item--delhi {
+  grid-area: delhi;
+}
+
+.list__item--francisco {
+  grid-area: francisco;
+}
+
+.list__item--tokyo {
+  grid-area: tokyo;
+}
+
+.list__item--sydney {
+  grid-area: sydney;
+}

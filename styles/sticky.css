@@ -1,0 +1,39 @@
+
+body {
+  padding: 100px 0;
+}
+
+a {
+  color: tomato;
+}
+
+article {
+  color: #F7F7F7;
+}
+
+.sticky {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 150px 400px;
+  grid-gap: 30px;
+  align-items: start;
+  margin-bottom: 500px;
+}
+
+.sticky__nav {
+  position: sticky;
+  top: 0;
+  padding-top: 25px;
+}
+
+.sticky__nav li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sticky__content > article {
+  padding: 20px 0;
+}
+
+.sticky__content > article:not(:last-child) {
+  /*margin-bottom: 20px;*/
+}
