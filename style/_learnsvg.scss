@@ -34,12 +34,9 @@
 
 .gradient-box {
   position: relative;
-  display: inline-block;
+  display: block;
   width: 500px;
   height: 200px;
-  left: 50%;
-  transform: translateX(-50%);
-
   padding: calc(10px + 1em);
   background: url('data:image/svg+xml,\
   <svg xmlns="http://www.w3.org/2000/svg" >\
